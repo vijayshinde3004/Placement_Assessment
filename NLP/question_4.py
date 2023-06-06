@@ -1,6 +1,4 @@
 '''
-[ NLP ]
-
 Question 4 :-
 
 Take any text file and now your task is to Text Summarization without using
@@ -9,12 +7,8 @@ hugging transformer library.
 
 '''
 
-## Answer - 4 [ NLP ]:-
-
-
 import re
 from collections import defaultdict
-
 def preprocess_text(text):
     # Remove special characters and symbols
     text = re.sub(r'[^\w\s]', '', text)
@@ -77,6 +71,4 @@ num_summary_sentences = 3
 summary = extract_summary(input_text, num_summary_sentences)
 print(summary)
 
-
-## Thank You 
 
