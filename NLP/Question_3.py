@@ -1,14 +1,10 @@
 '''
-[ NLP ]
-
 Question 3:-
 
 from question 2, As you got the CSV and now you need perform key word
 extraction from that csv file and do the Topic modeling
 
 '''
-
-## Answer-3 [ NLP ]:-
 
 import csv
 import re
