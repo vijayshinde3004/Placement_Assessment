@@ -1,6 +1,4 @@
 '''
-[ NLP ]
-
 Question - 2:-
 
 Take any pdf and your task is to extract the text from that pdf and store it in a
@@ -8,10 +6,6 @@ csv file and then you need to find the most repeated word in that pdf.
 
 
 '''
-
-## Answer-2 [NLP]:-
-
-
 import PyPDF2
 import pandas as pd
 from collections import Counter
@@ -41,7 +35,3 @@ word_count = Counter(pdf_text.split())
 most_common_word = word_count.most_common(1)[0][0]
 
 print("Most repeated word:", most_common_word)
-
-'''
-## Thank You
-'''
