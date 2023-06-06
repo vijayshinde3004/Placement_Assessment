@@ -12,8 +12,6 @@ Dataset:- https://www.kaggle.com/competitions/microsoft-malware-prediction/data
 
 '''
 
-## Answer-9 [Machine Learning]:-
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -44,4 +42,3 @@ accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
 
 
-## Thank You
