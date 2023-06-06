@@ -1,5 +1,4 @@
 '''
-[ NLP ]
 
 Question - 1 :-
 
@@ -9,7 +8,6 @@ demanding topic in that videos comment section.
 
 '''
 
-## Answer-1 [NLP]:-
 
 
 import csv
@@ -47,7 +45,3 @@ for comment in comments:
 
 # Print the most demanding topic
 print("The most demanding topic in the comment section is:", most_demanding_topic)
-
-
-
-## Thank You
