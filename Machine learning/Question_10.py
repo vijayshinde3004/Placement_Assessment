@@ -1,5 +1,4 @@
 '''
-[ Machine Learning ]
 
 Question - 10 :-
 
@@ -11,7 +10,6 @@ Dataset:- https://www.kaggle.com/c/avazu-ctr-prediction
 
 '''
 
-## Answer-10 [Machine Learning]:-
 
 ## Import the required libraries:
 import pandas as pd
@@ -56,10 +54,3 @@ rf.fit(X_train, y_train)
 y_pred = rf.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
-
-
-
-
-
-
-
