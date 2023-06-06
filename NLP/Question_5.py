@@ -1,16 +1,10 @@
 '''
-[ NLP ]
-
 Question 5 :-
 
 Now you need build your own language detection with the fast Text model
 by Facebook.
 
 '''
-
-## Answer - 5 [ NLP ]:-
-
-
 import fasttext
 
 # Load pre-trained language detection model
@@ -27,7 +21,3 @@ def detect_language(text):
 text = "Hello, how are you?"
 predicted_language = detect_language(text)
 print(f"Detected language: {predicted_language}")
-
-
-## Thank you
-
